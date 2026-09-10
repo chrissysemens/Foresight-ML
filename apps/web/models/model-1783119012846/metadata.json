@@ -1,0 +1,34 @@
+{
+  "targetColumn": "price",
+  "featureColumns": [
+    "bedrooms",
+    "bathrooms",
+    "square_feet",
+    "city"
+  ],
+  "taskType": "regression",
+  "numericStats": {
+    "bedrooms": {
+      "mean": 3,
+      "std": 0.816496580927726
+    },
+    "bathrooms": {
+      "mean": 1.8333333333333333,
+      "std": 0.6871842709362768
+    },
+    "square_feet": {
+      "mean": 1291.6666666666667,
+      "std": 370.1538719085468
+    }
+  },
+  "categoricalMappings": {
+    "city": {
+      "Leeds": 0,
+      "York": 1
+    }
+  },
+  "targetStats": {
+    "mean": 271666.6666666667,
+    "std": 79669.45601811413
+  }
+}

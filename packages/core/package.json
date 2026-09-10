@@ -1,0 +1,28 @@
+{
+  "name": "@predict-flow/core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup --dts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "papaparse": "^5.5.4",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "@types/papaparse": "^5.5.2",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  }
+}

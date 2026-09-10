@@ -1,0 +1,29 @@
+{
+  "targetColumn": "bathrooms",
+  "featureColumns": [
+    "bedrooms",
+    "square_feet",
+    "city"
+  ],
+  "taskType": "regression",
+  "numericStats": {
+    "bedrooms": {
+      "mean": 3.5,
+      "std": 0.5
+    },
+    "square_feet": {
+      "mean": 1600,
+      "std": 200
+    }
+  },
+  "categoricalMappings": {
+    "city": {
+      "Leeds": 0,
+      "York": 1
+    }
+  },
+  "targetStats": {
+    "mean": 2.5,
+    "std": 0.5
+  }
+}

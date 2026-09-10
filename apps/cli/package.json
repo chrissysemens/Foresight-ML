@@ -1,0 +1,19 @@
+{
+  "name": "cli",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "train": "tsx src/train.ts",
+    "predict": "tsx src/predict.ts",
+    "profile": "tsx src/profile.ts"
+  },
+  "dependencies": {
+    "@predict-flow/core": "*",
+    "@predict-flow/ml": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "tsx": "^4.20.0",
+    "typescript": "^5.0.0"
+  }
+}

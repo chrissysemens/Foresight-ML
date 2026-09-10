@@ -1,0 +1,16 @@
+{
+  "rows": 2,
+  "featureCount": 3,
+  "taskType": "regression",
+  "targetColumn": "bathrooms",
+  "featureColumns": [
+    "bedrooms",
+    "square_feet",
+    "city"
+  ],
+  "warnings": [
+    "Dataset is very small. Predictions are unlikely to be reliable."
+  ],
+  "finalLoss": 0.03116048499941826,
+  "validationLoss": 7.519944190979004
+}

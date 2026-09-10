@@ -1,0 +1,32 @@
+{
+  "name": "predict-flow",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "train": "tsx src/cli/train.ts",
+    "predict": "tsx src/cli/predict.ts",
+    "profile": "tsx src/cli/profile.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "papaparse": "^5.5.4",
+    "zod": "^4.4.3",
+    "zustand": "^5.0.14"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "@types/papaparse": "^5.5.2",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
